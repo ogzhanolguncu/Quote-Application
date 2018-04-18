@@ -1,0 +1,95 @@
+@import
+url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+:root{
+    --main-color: steelblue;
+
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+  background: var(--main-color);
+  transition: 1s linear;
+}
+#container h2{
+    margin-bottom: 2.2em;
+}
+
+#container{
+    margin: 10% auto auto auto;
+    width: 700px;
+    text-align: center;
+    background: white;
+    outline: 4px solid white;
+    outline-offset: 9px;
+    padding: 1em;
+    color: var(--main-color);
+    height: 270px;
+    
+}
+
+
+
+#quoteArea{
+    line-height: 1.5;
+    width: 75%;
+    margin: 0 auto;
+    height: auto;
+    word-wrap: break-word;     
+}
+
+
+.quoteMiddle{
+    text-align: right;
+    font-style: italic;
+    opacity: 1;
+    width: 100%;
+    word-wrap: break-word;     
+    
+}
+
+.quoteIcons{
+    font-size:1.7em;
+    float: left;
+    margin-left: 4.5em;
+}
+
+.button{
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.9;
+}
+
+
+
+
+#quoteMeButton{
+    margin-bottom: 1em;
+    text-decoration: none;
+    border:2px solid var(--main-color);
+    padding: 5px 10px;
+    width:200px;
+	color:var(--main-color);
+    font-weight: 550;
+    outline: none;
+    text-align: center;
+    margin-right: 5em;
+    float: right;
+}
+
+#quoteMeButton:hover{
+	cursor:pointer;
+	background:var(--main-color);
+    color: #fff;	
+    transition: all ease-in-out 200ms;
+}
+
+@media only screen and (max-width: 650px){
+    #container { width: 90%; }
+    #quoteMeButton{ width: 20%;}
+}
