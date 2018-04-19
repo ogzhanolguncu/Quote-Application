@@ -89,7 +89,43 @@ body{
     transition: all ease-in-out 200ms;
 }
 
+
 @media only screen and (max-width: 650px){
-    #container { width: 90%; }
+    #container { width: 90%; height: 280px; }
     #quoteMeButton{ width: 20%;}
+    
+}
+@media only screen and (max-width: 435px){
+    #container { width: 90%; height: 320px; }
+
+    
+}
+
+
+
+@media only screen and (max-width: 340px){
+    #container { width: 80%; height: 370px; }
+
+    #quoteMeButton{margin-right: 0; float: none; width: 10%;}
+    .quoteIcons{float: none; margin-left: 0; margin-top: 1em;}
+    
+}
+
+@media only screen and (max-width: 300px){
+    #container { width: 70%; height: 450px; }
+
+    #quoteMeButton{margin-right: 0; float: none; width: 10%;}
+    .quoteIcons{float: none; margin-left: 0; margin-top: 1em;}
+    
+}
+
+
+
+
+@media only screen and (max-width: 270px){
+    #container { width: 70%; height: 515px; }
+
+    #quoteMeButton{margin-right: 0; float: none; width: 10%;}
+    .quoteIcons{float: none; margin-left: 0; margin-top: 1em;}
+    
 }
