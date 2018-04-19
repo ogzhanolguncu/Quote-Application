@@ -88,15 +88,34 @@ body{
     color: #fff;	
     transition: all ease-in-out 200ms;
 }
-
-
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 750px){
     #container { width: 90%; height: 280px; }
     #quoteMeButton{ width: 20%;}
     
 }
-@media only screen and (max-width: 435px){
-    #container { width: 90%; height: 320px; }
+
+
+
+
+@media only screen and (max-width: 650px){
+    #container { width: 88%; height: 280px; }
+    #quoteMeButton{ width: 20%;}
+    
+}
+@media only screen and (max-width: 550px){
+    #container { width: 87%; height: 280px; }
+    #quoteMeButton{ width: 20%;}
+    
+}
+
+@media only screen and (max-width: 480px){
+    #container { width: 83%; height: 320px; }
+
+    
+}
+
+@media only screen and (max-width: 400px){
+    #container { width: 78%; height: 320px; }
 
     
 }
